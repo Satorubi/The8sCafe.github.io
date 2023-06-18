@@ -352,21 +352,27 @@ p{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 50px;
+  background-color: #f5f5f5;
 }
 
 .documentation-header {
-  margin-bottom: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.documentation-header h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .documentation-item {
-  max-width: 300px;
-  margin: 10px;
+  margin-bottom: 20px;
 }
 
 .documentation img {
-  width: 100%;
+  max-width: 80%;
   height: auto;
-  object-fit: cover;
   border-radius: 10px;
 }
